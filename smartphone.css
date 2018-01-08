@@ -1,0 +1,62 @@
+body
+{
+		height: 850px;
+}
+header
+{
+	display: flex;
+	flex-direction: column;
+	background-image: none;
+	border: none;
+	box-shadow: none;
+	width: 350px;
+	height: auto;
+	margin: auto;
+}
+header img
+{
+	width: 80px;
+	margin: auto;
+}
+header h1
+{
+	font-size: 2.5em;
+	text-shadow: none;
+}
+#paragraphe
+{
+	background-image: none;
+	border: none;
+	box-shadow: none;
+	overflow: hidden;
+	margin: auto;
+}
+#adresse
+{
+	display: none;
+}
+#smartphone
+{	
+	background: url(images/iphone.jpg) no-repeat fixed center;
+	padding-left: 6px;
+}
+article
+{
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+}
+#in_smartphone
+{
+	width: 430px;
+	height: 619px;
+	border: 0px solid red;
+	margin: auto;
+	margin-top: 122px;
+	overflow: scroll;
+	
+}
+#biere
+{
+	margin-bottom: 0px;
+}

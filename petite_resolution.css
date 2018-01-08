@@ -1,0 +1,23 @@
+#lisere
+{
+	display: none;
+}
+#paragraphe
+{
+	flex-direction: column;
+	height: auto;
+}
+section
+{
+	width: 100%;
+	margin: 0px 20px 0px 0px;
+}	
+article
+{
+	width: 635px;
+	margin: auto;
+}
+#biere
+{
+	margin-bottom: 230px;
+}
