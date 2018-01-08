@@ -1,0 +1,40 @@
+body
+{
+	text-align: center;
+	background: url(images/donutsfini.png); /* Mettre une image de fond */
+}
+
+@font-face  /* Utiliser une police perso */
+{
+    font-family: 'Simpsonfont';
+    src: url('police/Simpsonfont.otf');    
+} 
+
+p, h1, h2, h3, ul
+{
+	font-family: 'Simpsonfont', arial;
+}
+
+h1
+{
+	font-size: 60px;
+
+	color: blue; /* Changer la couleur d'un texte */
+	text-shadow: 7px 7px 4px black;
+}
+
+h2, h3
+{
+	border: 2px blue solid; /* Definir une bordure à un élément */
+	border-radius: 20px;
+	box-shadow: 7px 7px 4px black; /* Définir une ombre à un élément */
+}
+.envert
+{
+	color: green;
+}
+
+.signature /* Changer l'alignement d'un texte */
+{
+	text-align: right;
+}
