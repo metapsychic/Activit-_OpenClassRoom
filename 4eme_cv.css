@@ -1,0 +1,103 @@
+@font-face  /* Utiliser une police perso */
+{
+    font-family: 'Simpsonfont';
+    src: url('police/Simpsonfont.otf');    
+} 
+
+body
+{
+	font-family: 'Simpsonfont', arial;
+	width: 100%;	
+	display: flex;
+}
+
+
+#lisere
+{
+	font-size: 2.5em;
+	font-weight: bold;
+	color: blue;
+	text-align: center;
+	width: 15%;
+	height: 900px;
+	margin: 3px 1px 3px 1px;
+	background: url(images/donut.png), url(images/fondjaune.png);	
+	border: 2px solid black;
+	box-shadow: 4px 4px 2px black;
+	border-radius: 10px;
+
+}
+
+section
+{
+	width: 83%;
+}
+
+header
+{
+	width: 100%;
+	height: 200px;
+	margin: 3px;
+	text-align: center;
+	background: url(images/fondjaune.png);	
+	border: 2px solid black;
+	box-shadow: 4px 4px 2px;
+	border-radius: 10px;
+	overflow: hidden;
+
+}
+header img
+{
+	float: right;
+	margin: 20px 40px 20px 0px;	
+}
+header h1
+{
+	color: blue;
+	font-size: 4em;
+
+	text-shadow: 6px 6px 3px black;
+	margin: 0px;
+}
+#adresse
+{
+	color: green;
+	font-size: 0.8em;
+	margin: 0px;
+}
+#citation
+{
+	margin: 4px;
+	text-decoration: underline;
+}
+
+#paragraphe
+{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 692px;
+	margin: 3px;
+	text-align: center;
+	background: url(images/lisere.png) no-repeat bottom, url(images/fondjaune.png);	
+	border: 2px solid black;
+	box-shadow: 4px 4px 2px;
+	border-radius: 10px;
+}
+article
+{
+	width: 33%;
+}
+article h2
+{
+	color: blue;
+	font-size: 1.7em;
+}
+.sanspuce
+{
+	list-style-type: none;
+}
+strong
+{
+	text-decoration: underline;
+}
